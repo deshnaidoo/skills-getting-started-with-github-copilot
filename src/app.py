@@ -77,7 +77,7 @@ activities = {
     }
 }
 
-@app.get("/activities")
+Zapp.get("/activities")
 def get_activities():
     return activities
 
